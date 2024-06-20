@@ -18,7 +18,7 @@ def transcribe_audio(audio_file):
 
 def find_streak_words(result):
     # Print the result for review
-    words = {'quad kill': 4, 'one kill': 4, 'what kill': 4, 'penta kill': 5, 'tentacle': 5, 'tentacule': 5, 'tenta kill': 5, 'incredible': 6, 'unbelievable': 7, 'amazing': 8, 'sensational': 9, 'sensation': 9, 'unstoppable': 10, 'epic': 11}
+    words = {'triple kill': 3, 'quad kill': 4, 'one kill': 4, 'what kill': 4, 'penta kill': 5, 'tentacle': 5, 'tentacule': 5, 'tenta kill': 5, 'incredible': 6, 'unbelievable': 7, 'amazing': 8, 'sensational': 9, 'sensation': 9, 'unstoppable': 10, 'epic': 11}
     for i in result['segments']:
         found_words = [word for word in words if word in i['text'].lower()]
         for word in found_words:
