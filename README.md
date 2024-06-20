@@ -4,7 +4,11 @@ A small script to automate finding streaks in a video recording of Gun Raiders
 
 Technique used is transcribing audio to text using OpenAI's whisper, then looking for streak keywords from announcer ("penta kill", "incredible" etc.).
 
-It works kinda meh. Due to noise, words are often not recognized. Besides, some words are not common ("quad", "penta") and whisper will mistake them for something else. I included some misinterpretations I found (e.g. "penta kill" is "Tentacle", which, tbh, is funny) and this list should be updated. But the longer the streak, the more chance there is that at least one keyword is picked!
+## Reliability
+
+It works kinda good. Due to noise, words are often not recognized. Besides, some words are not common ("quad", "penta") and whisper will mistake them for something else. I included some misinterpretations I found (e.g. "penta kill" is "Tentacle", which, tbh, is funny) and this list should be updated. But the longer the streak, the more chance there is that at least one keyword is picked!
+
+Basically, you can expect it to find about 80% of streaks of length 5 and more, and 90-95% of 7+ streaks.
 
 ## Dependencies
 
