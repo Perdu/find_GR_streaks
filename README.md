@@ -22,6 +22,8 @@ This will display findings, and save full audio transcription in a .json file.
 
 ## Example run
 
+A one-and-a-half hour game recording takes about 5 minutes to process on a modern machine with a good CPU (i9-13900).
+
 ```
 $ ~/find_GR_streaks/look_for_streaks.sh streaks/20240612-170145_7+2.mp4 streaks/20240529-165847_8_and_7_and_9.mp4
 20240612-170145_7+2.mp4:
