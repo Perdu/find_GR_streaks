@@ -10,7 +10,7 @@ It works kinda meh. Due to noise, words are often not recognized. Besides, some 
 
 - python
 - ffmpeg
-- whisper
+- [whisper](https://github.com/openai/whisper)
 
 ## Usage
 
